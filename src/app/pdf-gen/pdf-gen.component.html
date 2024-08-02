@@ -1,0 +1,16 @@
+<div id="pdf-content">
+  <h1>Invoice</h1>
+
+  <div *ngIf="jsonData">
+    <p><strong>Customer:</strong> {{ jsonData.customer }}</p>
+    <p><strong>Date:</strong> {{ jsonData.date }}</p>
+    <p><strong>Items:</strong></p>
+    <ul>
+      <li *ngFor="let item of jsonData.items">
+        {{ item.description }} - ${{ item.price }}
+      </li>
+    </ul>
+  </div>
+
+  <button (click)="generatePDF()">Generate PDF</button>
+</div>
