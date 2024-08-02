@@ -21,7 +21,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 - To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 > [!NOTE]
-> This is just a sample project that I have done, using `JSON` data (hard-coded)
+> This is just a sample project that I have done, using `JSON` data (hard-coded)\
 > Try to enhance this repo.
 
 - Created and developed by [AVidhanR](https://linkedin.com/in/AVidhanR)
